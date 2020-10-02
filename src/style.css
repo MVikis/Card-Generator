@@ -1,0 +1,84 @@
+
+
+ .border-corners:before,
+ .border-corners:after, 
+ .border-corners>:last-child:before, 
+ .border-corners>:last-child:after {
+     position: absolute;
+     width: 40px; 
+     height: 30px;
+     border: 1px solid #333;
+     border-style: solid;
+     content: ' ';
+ }
+ 
+ .border-corners:before {
+     top: 10px;
+     left: 10px;
+     border-width: 1px 0 0 1px
+ }
+ 
+ .border-corners:after {
+     top: 10px;
+     right: 10px;
+     border-width: 1px 1px 0 0
+ }
+ 
+ .border-corners>:last-child:before {
+     bottom: 10px;
+     right: 10px;     
+     border-width: 0 1px 1px 0
+ }
+ 
+ .border-corners>:last-child:after {
+     bottom: 10px;
+     left: 10px;
+     border-width: 0 0 1px 1px
+ }
+ 
+ .border-style{
+    border-radius: 10px!important;
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18),0 4px 15px 0 rgba(0,0,0,0.15);
+ }
+ .grid-system{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-areas:
+    'img '
+    'char '
+    'desc '
+    'skills ';
+ }
+ .icon{
+     cursor: pointer;
+     height: 5em;
+     margin: auto;
+     z-index: 2;
+     width: 5em;
+     display: block;
+     transition: all 1s;
+ }
+ .icon:hover{
+    height:5.5em;
+    width: 5.5em;
+    }
+ .column{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+ }
+ .flex-row{
+    display: flex;
+    margin-right: -15px;
+    margin-left: -15px;
+ }
+ @media only screen and (min-width: 768px){
+    .grid-system{
+        display: grid;
+        grid-gap: 20px;
+        grid-template-areas:
+        'img img img char char char'
+        'desc desc desc desc desc desc'
+        'skills skills skills skills skills skills';
+     }
+ }

@@ -1,0 +1,128 @@
+
+  .card-wrapper{
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  .card {
+    margin:auto;
+    padding: 10px;
+    width: 250px;
+    object-fit: cover;
+    text-align: center;
+    backface-visibility: hidden;
+}
+.flip{
+    transform: rotateY(180deg);
+
+}
+.card-body{
+    position: relative;
+    margin-top: 10px;
+   
+}
+.card-title{
+    color:black;
+}
+  
+.card-img-top{
+   width: fit-content;
+    height: 300px;
+    object-fit: cover;
+}
+.char, .desc{
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.char{
+    position: relative;
+    grid-area: char;
+}
+.desc{
+    overflow: auto;
+    grid-area: desc;
+}
+.skills{
+    background-color: #fff;
+    grid-area: skills;
+}
+
+   .card-wrapper{
+       margin-top: 50px;
+   }
+   .full-card{
+    
+     background-color: white;
+       padding: 20px;
+       position: absolute;
+       top: 0;
+       left: 0;
+       z-index: 3;
+       width: 100%;
+       backface-visibility: hidden;
+       transform: rotateY(180deg);
+   }
+       .img-container{
+           position: relative;
+        box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18),0 4px 15px 0 rgba(0,0,0,0.15) !important;
+        grid-area: img;
+        height: 170px;
+        
+       }
+      .full-card-img{
+        width: 100%;
+       height: 100%;
+        object-fit: cover;
+      }
+      .card-text{
+          margin: auto;
+      }
+
+   
+   @media only screen and (min-width: 768px){
+   
+   
+   
+    .row{
+        justify-content: center;
+        padding-top: 20px;
+    }
+    .card-wrapper{
+        flex-basis: auto;
+    }
+    .flip{
+        position: absolute;
+    width: 75%;
+    z-index: 2;
+    }
+    .card{
+        margin: 30px;
+        transform-style: preserve-3d;
+        transition: transform 1s;
+        
+    }
+    .card:hover{
+        transform: translateY(-10px);
+    }
+    .img-container{
+        height: 250px;
+    }
+   
+    .full-card{
+        top: 0;  /* position the top  edge of the element at the middle of the parent */
+        left: 0; /* position the left edge of the element at the middle of the parent */
+        margin:auto;
+        background-color: #fff;
+        position: fixed;
+       
+    }
+    .full-card h4{
+        font-size: 4vw;
+    }
+    .full-card h5{
+        font-size: 2vw;
+    }
+   
+   }
+ 

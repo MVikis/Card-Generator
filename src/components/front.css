@@ -1,0 +1,60 @@
+
+
+  .intro{
+      height: 100vh;
+      display: flex;
+   flex-direction: column;
+   margin: 10px;
+   padding-bottom: 1050px;
+
+  }
+  .text-container{
+    z-index: 2;
+  }
+  .logo-container{
+    position: relative;
+    width: 100%;    
+  }
+
+  .card-collection{
+    position: relative;
+    height: 100%;
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+  }
+  .intro-card{
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    
+  }
+ 
+  .text-container{
+  margin-right: 40px;
+  }
+  .plus {
+    position: relative;
+}
+
+
+@media only screen and (min-width: 768px) {
+  .header{
+    padding:50px;
+  }
+.intro{
+  margin: 40px;
+  flex-direction: row;
+  padding-bottom: 0px;
+
+}
+.carousel{
+   width: 100%;
+   padding: 30px;
+} 
+.card-collection{
+  margin-right:4vw;
+}
+
+}
