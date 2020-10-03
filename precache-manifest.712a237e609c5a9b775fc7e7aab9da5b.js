@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4cfd91b615d095fb4c03a63c6e7ce366",
+    "revision": "1945432c96e14381441d531776a3e6ed",
     "url": "/Card-Generator/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Card-Generator/static/css/2.fc7caa24.chunk.css"
   },
   {
-    "revision": "5346072fba1d8941940d",
-    "url": "/Card-Generator/static/css/main.fc9a15b3.chunk.css"
+    "revision": "c18cc0c607d4b63b9fd6",
+    "url": "/Card-Generator/static/css/main.157c02f3.chunk.css"
   },
   {
     "revision": "acfc81a3f8a3a5aee349",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Card-Generator/static/js/2.59e578a8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5346072fba1d8941940d",
+    "revision": "c18cc0c607d4b63b9fd6",
     "url": "/Card-Generator/static/js/main.f5d6ee69.chunk.js"
   },
   {
