@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/card-generator/static/css/main.fc9a15b3.chunk.css",
-    "main.js": "/card-generator/static/js/main.8761f4c6.chunk.js",
-    "main.js.map": "/card-generator/static/js/main.8761f4c6.chunk.js.map",
-    "runtime-main.js": "/card-generator/static/js/runtime-main.29c7f91d.js",
-    "runtime-main.js.map": "/card-generator/static/js/runtime-main.29c7f91d.js.map",
-    "static/css/2.4f78a566.chunk.css": "/card-generator/static/css/2.4f78a566.chunk.css",
-    "static/js/2.59e578a8.chunk.js": "/card-generator/static/js/2.59e578a8.chunk.js",
-    "static/js/2.59e578a8.chunk.js.map": "/card-generator/static/js/2.59e578a8.chunk.js.map",
-    "index.html": "/card-generator/index.html",
-    "precache-manifest.fbbf4ce1f21cac817f17310c28701f90.js": "/card-generator/precache-manifest.fbbf4ce1f21cac817f17310c28701f90.js",
-    "service-worker.js": "/card-generator/service-worker.js",
-    "static/css/2.4f78a566.chunk.css.map": "/card-generator/static/css/2.4f78a566.chunk.css.map",
-    "static/css/main.fc9a15b3.chunk.css.map": "/card-generator/static/css/main.fc9a15b3.chunk.css.map",
-    "static/js/2.59e578a8.chunk.js.LICENSE.txt": "/card-generator/static/js/2.59e578a8.chunk.js.LICENSE.txt",
-    "static/media/mdb.css": "/card-generator/static/media/arrow_right.8ef6a08c.svg",
-    "static/media/dog.jpg": "/card-generator/static/media/dog.af24ba59.jpg",
-    "static/media/dog2.jpeg": "/card-generator/static/media/dog2.56c9730f.jpeg",
-    "static/media/dog3.jpeg": "/card-generator/static/media/dog3.c3f141f5.jpeg"
+    "main.css": "/Card-Generator/static/css/main.fc9a15b3.chunk.css",
+    "main.js": "/Card-Generator/static/js/main.f5d6ee69.chunk.js",
+    "main.js.map": "/Card-Generator/static/js/main.f5d6ee69.chunk.js.map",
+    "runtime-main.js": "/Card-Generator/static/js/runtime-main.4aea36ed.js",
+    "runtime-main.js.map": "/Card-Generator/static/js/runtime-main.4aea36ed.js.map",
+    "static/css/2.fc7caa24.chunk.css": "/Card-Generator/static/css/2.fc7caa24.chunk.css",
+    "static/js/2.59e578a8.chunk.js": "/Card-Generator/static/js/2.59e578a8.chunk.js",
+    "static/js/2.59e578a8.chunk.js.map": "/Card-Generator/static/js/2.59e578a8.chunk.js.map",
+    "index.html": "/Card-Generator/index.html",
+    "precache-manifest.7847ae3d9a2f59c07b31ebc5d5a698ae.js": "/Card-Generator/precache-manifest.7847ae3d9a2f59c07b31ebc5d5a698ae.js",
+    "service-worker.js": "/Card-Generator/service-worker.js",
+    "static/css/2.fc7caa24.chunk.css.map": "/Card-Generator/static/css/2.fc7caa24.chunk.css.map",
+    "static/css/main.fc9a15b3.chunk.css.map": "/Card-Generator/static/css/main.fc9a15b3.chunk.css.map",
+    "static/js/2.59e578a8.chunk.js.LICENSE.txt": "/Card-Generator/static/js/2.59e578a8.chunk.js.LICENSE.txt",
+    "static/media/mdb.css": "/Card-Generator/static/media/arrow_right.8ef6a08c.svg",
+    "static/media/dog.jpg": "/Card-Generator/static/media/dog.af24ba59.jpg",
+    "static/media/dog2.jpeg": "/Card-Generator/static/media/dog2.56c9730f.jpeg",
+    "static/media/dog3.jpeg": "/Card-Generator/static/media/dog3.c3f141f5.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.29c7f91d.js",
-    "static/css/2.4f78a566.chunk.css",
+    "static/js/runtime-main.4aea36ed.js",
+    "static/css/2.fc7caa24.chunk.css",
     "static/js/2.59e578a8.chunk.js",
     "static/css/main.fc9a15b3.chunk.css",
-    "static/js/main.8761f4c6.chunk.js"
+    "static/js/main.f5d6ee69.chunk.js"
   ]
 }
